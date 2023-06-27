@@ -1,7 +1,5 @@
 # Bosch_BMI088_new_data_interrupt_setup
 
-Description
-
 This Arduino sketch configures the BMI088 sensor's registry, specifically targeting interrupts 1 and 3, and assigns them as new data interrupts for the accelerometer and gyroscope. It uses the Wire library to communicate with the sensor over I2C.
 
 The code starts by including the Wire library and defining the I2C addresses for the accelerometer and gyroscope of the BMI088 sensor. It also defines the interrupt mapping registers for each.
